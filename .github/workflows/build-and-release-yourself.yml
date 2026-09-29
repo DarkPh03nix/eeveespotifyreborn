@@ -102,7 +102,7 @@ jobs:
           files: |
             EeveeSpotify.ipa 
             EeveeSpotify-patched.ipa
-          draft: true
+          draft: false
 
       - name: Output Release URL
         run: |
